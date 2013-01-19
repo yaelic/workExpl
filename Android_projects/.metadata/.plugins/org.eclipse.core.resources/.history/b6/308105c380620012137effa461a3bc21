@@ -162,7 +162,7 @@ public class LogMethods {
 		};
 		Date date=new Date() ;
 		long now = date.getTime();
-		Cursor mCalendarCursor = android.provider.CalendarContract.Instances.query(cr, strFields, 0, now + 999999999);
+		Cursor mCalendarCursor = android.provider.CalendarContract.Instances.query(cr, strFields, now, now + 16000000);
 		String toPrint = new String();
 		for (String col_name:strFields){
 			toPrint += "\"" + col_name + "\",";

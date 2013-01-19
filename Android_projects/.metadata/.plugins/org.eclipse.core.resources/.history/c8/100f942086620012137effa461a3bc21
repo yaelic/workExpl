@@ -161,8 +161,8 @@ public class LogMethods {
 				CalendarContract.Instances.EVENT_ID,
 		};
 		Date date=new Date() ;
-		long now = date.getTime();
-		Cursor mCalendarCursor = android.provider.CalendarContract.Instances.query(cr, strFields, 0, now + 999999999);
+		long future = date.getTime() + 5000000000;
+		Cursor mCalendarCursor = android.provider.CalendarContract.Instances.query(cr, strFields, 0, future);
 		String toPrint = new String();
 		for (String col_name:strFields){
 			toPrint += "\"" + col_name + "\",";

