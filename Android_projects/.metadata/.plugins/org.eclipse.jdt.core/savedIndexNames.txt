@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+D:\Users\Erez\MoodRing\Android_projects\.metadata\.plugins\org.eclipse.jdt.core
+2048653646.index
